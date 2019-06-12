@@ -44,6 +44,17 @@
   padding: 30px 0;
   text-align: center;
 }
+@keyframes open {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 400px;
+  }
+}
+.open {
+  animation: open 2s;
+}
 .menu--open {
   display: block;
 }
