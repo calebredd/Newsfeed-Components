@@ -15,7 +15,12 @@ class Article {
   expandArticle() {
     // Using our reference to the domElement, toggle a class to expand or hide the article.
     event.target.parentElement.classList.toggle("article-open");
-    return event.target.parentElement.classList.toggle("open");
+    event.target.parentElement.classList.toggle("open");
+    if (event.target.innerHTML === "expand") {
+      return (event.target.innerHTML = "collapse");
+    } else {
+      return (event.target.innerHTML = "expand");
+    }
   }
 }
 
