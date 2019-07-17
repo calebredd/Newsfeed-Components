@@ -85,6 +85,15 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
       Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
       Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: "Caleb Redd's Article",
+    date: "July 16th, 2019",
+    firstParagraph: `First paragraph is a quick bio. I am the eggman, you are the eggman. Cukoo cachoo.`,
+
+    secondParagraph: `Imagine all the people living for today in the second paragrph. `,
+
+    thirdParagraph: `Back to school again Maxwell plays the fool again. Teacher gets annoyed....... But as she's getting ready to go, a knock comes from the door. `
   }
 ];
 // Because classes are not hoisted you will need to start your code at the bottom of the page.  Look for the comment "START HERE"
